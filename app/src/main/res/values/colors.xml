@@ -8,6 +8,7 @@
     <color name="categoryMonuments">#009688</color>
     <color name="categoryRestaurants">#00BCD4</color>
     <color name="categoryHotels">#4CAF50</color>
+    <color name="categoryFun">#00796B</color>
 
     //text color
     <color name="textColor">#FFFFFF</color>

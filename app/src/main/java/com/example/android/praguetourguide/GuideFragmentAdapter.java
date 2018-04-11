@@ -1,26 +1,23 @@
 package com.example.android.praguetourguide;
 
 
-import android.os.Bundle;
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class GuideFragmentAdapter extends FragmentPagerAdapter {
-    public GuideFragmentAdapter(FragmentManager fm) {
+
+    private Context mContext;
+
+    //Public constructor for the ViewPager Adapter
+    public GuideFragmentAdapter(FragmentManager fm, Context context) {
         super(fm);
+        mContext = context;
     }
-
-    final int PAGE_COUNT = 3;
-    private String tabTitles[] = new String[] { "Monuments", "Restaurants", "Hotels"};
-
 
     @Override
     public android.support.v4.app.Fragment getItem(int position) {
@@ -28,19 +25,32 @@ public class GuideFragmentAdapter extends FragmentPagerAdapter {
             return new MonumentsFragment();
         } else if (position == 1){
             return new RestaurantsFragment();
-        } else {
+        } else if (position == 2){
             return new HotelsFragment();
+        } else {
+            return new FunFragment();
         }
     }
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
-        // Generate title based on item position
-        return tabTitles[position];
+        //Set the titles of the tabs for the TabLayout
+        if (position == 0){
+            return mContext.getString(R.string.monuments_activity);
+        }
+        else if (position == 1){
+            return mContext.getString(R.string.restaurants_activity);
+        }
+        else if (position == 2){
+            return mContext.getString(R.string.hotels_activity);
+        }
+        else {
+            return mContext.getString(R.string.fun_activity);
+        }
     }
 }

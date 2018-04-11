@@ -5,9 +5,10 @@
     <string name="monuments_activity">Monuments</string>
     <string name="restaurants_activity">Restaurants</string>
     <string name="hotels_activity">Hotels</string>
+    <string name="fun_activity">Fun</string>
     <string name="detail">Detail</string>
 
-    //data for activity monuments
+    //data for fragment monuments
     <string name="bethlehem_chapel">Bethlehem Chapel</string>
     <string name="bethlehem_chapel_address">Betlemske namesti 255/4, Praha 1</string>
     <string name="bethlem_chapel_web">https://www.bethlehemchapel.eu/</string>
@@ -47,7 +48,7 @@
 The surrounding game reserve was founded in 1530 by King Ferdinand I. Twenty-five years later he commissioned his younger son Ferdinand II, Archduke of Austria, to build the villa. The foundations were laid on 27 June 1555 by the Archduke alone, and construction of the villa was completed three years later. The villa is shaped as a six-pointed star, from which it and the game reserve acquire their shared name.
 In 1962 the villa was listed as a national cultural monument, which it remains today. An exhibition relating to the Battle of White Mountain, which took place nearby, is now on permanent display inside the publicly accessible villa.</string>
 
-    //data for activity restaurants
+    //data for fragment restaurants
     <string name="la_degustation">La Degustation Bohême Bourgeoise</string>
     <string name="la_degustation_address">Haštalská 18, Praha 1</string>
     <string name="la_degustation_web">http://www.ladegustation.cz/en/</string>
@@ -89,8 +90,8 @@ In 1962 the villa was listed as a national cultural monument, which it remains t
     <string name="rugantino_web">http://pizzeriarugantino.cz/</string>
     <string name="rugantino_des">This Old Town institution loves kids and allows them to construct their own pizza, with children’s area front and centre at the restaurant. Pies pretty good by adult standards too.</string>
 
-    //data for activity hotels
-<string name="alchymist">Hotel Alchymist</string>
+    //data for fragment hotels
+    <string name="alchymist">Hotel Alchymist</string>
     <string name="alchymist_address">Trziste 19, Praha 1</string>
     <string name="alchymist_web">http://www.alchymisthotel.com/en/home.html</string>
     <string name="alchymist_des">The oldest preserved part of the Dum u Jeziska (House at the Jesus Child) is the rear part of the structure facing the courtyard. The lower part of the original tower structure could date from the fortification of the Lesser Town in 1257, the oldest Premyslid fortification. This tower, which later underwent a Baroque adaptation, is decorated between the second-floor windows with a very well preserved polychrome relief sculpture of Our Lady of Loretto.</string>
@@ -98,7 +99,7 @@ In 1962 the villa was listed as a national cultural monument, which it remains t
     <string name="savic_address">Jilska 7, Praha 1</string>
     <string name="savic_web">https://www.savic.eu/</string>
     <string name="savic_des">The Savic hotel is situated in the heart of the city centre at Old Town Square, just a few steps away, on the cobbled streets near the famous "Astronomical Clock". It is surrounded by the most significant historical landmarks of Prague, like the Charles Bridge, the National Theatre and the Wenceslas Square.</string>
-<string name="residence_malostranska">Residence Malostranska</string>
+    <string name="residence_malostranska">Residence Malostranska</string>
     <string name="residence_malostranska_address">Malostranske namesti 24/38, Praha 1</string>
     <string name="residence_malostranska_web">http://www.residence-malostranska.com/</string>
     <string name="residence_malostranska_des">Luxury hotel Residence Malostranská offers its services to the most discerning clients. We have three types of luxury suites: Studio, Family and Presidential Suites. Your accommodation will be right underneath the Prague Castle on Malostranské náměstí (Lesser Town Square). Some of Prague’s best historical attractions such as the Charles Bridge, Prague Castle and Old Town Square are right around the corner.</string>
@@ -106,6 +107,34 @@ In 1962 the villa was listed as a national cultural monument, which it remains t
     <string name="albatros_address">Nabrezi L. Svobody, Praha 1</string>
     <string name="albatros_web">http://www.hotelalbatros.cz/en/</string>
     <string name="albatros_des">Botel Albatros is located at the edge of the Old Town of Prague - only a few minutes walking from the Old Town Square. A panoramic view of Prague Castle, unique accommodation and our location on the river combine to offer our guests a romantic holiday in close proximity to the city centre.</string>
+
+    // data for fragment fun
+    <string name="bobsleigh">Bobsleigh</string>
+    <string name="bobsleigh_address">Prosecká 906/34b, Praha 9</string>
+    <string name="bobsleigh_web">http://www.bobovadraha.cz/</string>
+    <string name="bobsleigh_des">Enjoy the thrills and spills of the Prague Bobsleigh, riding up to 62km per hour down an 800m track. The track has several special features, including eight curves and several humps.
+Duration: 3-4½ hours. Operates all year.</string>
+    <string name="beer_tasting">Czech Beer Tasting</string>
+    <string name="beer_tasting_address">Americká 341/43, Praha 2</string>
+    <string name="beer_tasting_web">http://www.praguebeermuseum.cz/en/</string>
+    <string name="beer_tasting_des">Czech Republic is famous around the world for its beers. It`s more than a drink, it is a part of the culture of Bohemia, it is passion. Beside the world famous large brands, the country is brimming with microbreweries and new craft beers are surfacing every day. For a new beer to succeed in that vibrant environment, beside quality, it must bring innovation.
+
+Beer Museum is dedicated to bringing our customers the selection of finest beers.
+
+We serve 30 beers on tap.
+
+We strive to keep up with newest beer trends, as we frequently update our beer menu.</string>
+    <string name="karting">Karting</string>
+    <string name="karting_address">Jiriho ze Vtelna 1731, Praha 9/</string>
+    <string name="karting_web">http://www.pragaarena.com/</string>
+    <string name="karting_des">We’ve opened a unique new go-cart arena in Horní Počernice in Prague, which is one of the most modern go-cart arenas in Czech Republic. With us you can become a real racing driver!
+
+In order to ensure your driving experience is unforgettable, of maximum importance to us is safety, professional support and supervision of the circuit. For your upmost comfort we’ve prepared a restaurant serving grilled specialties and various drinks amongst others./</string>
+    <string name="balloon">Hot Air Balloon Flight</string>
+    <string name="balloon_address">K Červenému dvoru 26, Prague 3</string>
+    <string name="balloon_web">http://balloonadventures.cz/</string>
+    <string name="balloon_des">Combine your trip to Prague with an unforgettable experience, a flight in a hot air balloon. An ideal excursion for a romantic couple, but equally a fun packed group activity for up to 50 people.
+Duration: 4 hours. Flight time: 1 hour. Operates all year.</string>
 
 
     // names of variables

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,22 +18,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MonumentsActivity"
-            android:label="@string/monuments_activity"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".RestaurantsActivity"
-            android:label="@string/restaurants_activity"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".HotelsActivity"
-            android:label="@string/hotels_activity"
-            android:parentActivityName=".MainActivity" />
-        <activity
             android:name=".ItemDetailActivity"
             android:label="@string/detail"
-            android:parentActivityName=".MainActivity">
-        </activity>
+            android:parentActivityName=".MainActivity"></activity>
+
     </application>
 
 </manifest>
